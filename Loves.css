@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url(https://img.freepik.com/fotos-gratis/coracoes-vermelhos-bokeh-de-fundo_23-2149440433.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.poema {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo branco semi-transparente */
+}
+
+h1 {
+    color: #808080;
+}
+
+.destaque {
+    font-weight: bold;
+    color: #b22222;
+}
+
+.destaque2 {
+    font-weight: bold;
+    color: #b22222;
+    font-size: 20px;
+}
+
+p {
+    margin: 15px 0;
+}

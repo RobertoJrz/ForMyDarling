@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-gratis/coracoes-vermelhos-bokeh-de-fundo_23-2149440433.jpg);
+    color: white;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Sobreposição preta com 50% de opacidade */
+    z-index: -1; /* Mantém a camada atrás do conteúdo */
+}
+
+.text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.btn {
+    width: 120px;
+    height: 25px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.bn632-hover {
+    width: 130px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn28 {
+    background-image: linear-gradient(
+        to right,
+        #eb3941,
+        #f15e64,
+        #e14e53,
+        #e2373f
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 17px;
+}
